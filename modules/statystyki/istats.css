@@ -1,0 +1,174 @@
+
+.middle{
+   color:white;
+   font-size: 11px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+
+ .bmiddle{
+   color:white;
+   font-weight: bold;
+   font-size: 11px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+ .ymiddle{
+   color:yellow;
+   font-size: 9pt;
+   font-family: arial,verdana,helvetica;
+  }
+
+ .small{
+   color:navy;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+ .ret{
+   color:green;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+
+  .wsmall{
+   color:white;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+.wsmall2{
+   color:white;
+   font-size: 8px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+.xsmall{
+   color:navy;
+   font-size: 9px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+ a.asmall{
+   color:blue;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+   text-decoration:none;
+  }
+
+ a.msmall{
+   color:navy;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+   text-decoration:none;
+  }
+
+a.msmall:hover{
+   color:navy;
+   font-size: 10px;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+   text-decoration:underline;
+  }
+
+ .xsmall{
+   font-size: 9px;
+   font-family:
+   Arial,Tahoma;
+  }
+
+ .barmiddle{
+   border : 1px dotted Black;
+   font-size: 13px;
+   font-family: Arial,Tahoma;
+  }
+
+  a.head{
+   color:white;
+   font-weight: bold;
+   font-size: 10px;
+   text-decoration:none;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+  a.head:hover{
+   color:#00FF00;
+   font-weight: bold;
+   font-size: 10px;
+   text-decoration:none;
+   font-family: Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+  }
+
+
+  a.menu{
+   font-size: 8pt;
+   font-weight: bold;
+   font-family: tahoma,verdana,helvetica,courier,arial,sans-serif;
+   color:black;
+   text-decoration:none;
+  }
+
+ a.menu:hover{
+   font-size: 8pt;
+   font-weight: bold;
+   font-family: tahoma,verdana,helvetica,courier,arial,sans-serif;
+   color:black;
+   text-decoration:underline;
+  }
+
+.kala{
+font-family: Verdana, Tahoma;
+font-size: 12px;
+color:#000068;
+}
+
+.kalaOn
+{font-family: Verdana, Tahoma;
+font-size: 12px;
+color:maroon;
+}
+
+.kalDat
+{font-family: Verdana, Tahoma;
+font-size: 10px;
+color:white;
+
+}
+
+.kalSun{
+font-family: Verdana, Tahoma;
+font-size: 10px;
+color:Yellow;
+}
+
+.kalNo
+{font-family: Verdana, Tahoma;
+font-size: 10px;
+color:black;
+}
+
+.u_top
+{
+background-color:#3399CC;
+font-family: Arial,Verdana, Tahoma, Trebuchet MS, Arial, sans-serif;
+color: black;
+font-size: 14px;
+font-weight: bold;
+text-align:center;
+height:22px;
+vertical-align: middle;
+}
+
+a.u_topa
+{
+font-family: Verdana, Tahoma;
+color: #FFFFFF;
+text-decoration:none;
+font-size:12px;
+}
+
+.small3{
+   color:#a4a4a4;
+   font-size: 8px;
+   font-family: Verdana, Tahoma,  Arial;
+}

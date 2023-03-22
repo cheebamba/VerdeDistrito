@@ -1,0 +1,232 @@
+// Zmiany w Statystyce
+5.5.3		05.08.2004
+  + usunieto znalezione bugi
+
+5.5.2		28.07.2004 
+  + poprawiono bugi w wyswietlaniu ostatnich odwiedzin (thx 2 Pablo)
+  + naniesiono zmiany teleadresowe w dokumentacji i warstwie prezentacyjnej statystyk
+
+5.5.1
+  + poprawiono bug przy wykrywaniu wyszukiwarek
+  + ma³a optymalizacja kodu
+
+5.5
+  + poprawiono drobne b³êdy
+
+5.4
+  + du¿a optymalizacja kodu
+
+5.3.1
+  + dodano podstrone do listy ostnich odwiedzin
+  + dodano informacje czy wchodzi nowa osoba, jesli nie to podawana jest datê ostatnich odwiedzin
+
+
+5.3
+  + usuniêty bug przy blokowaniu przeladowan strony
+  + zmieniono sposób wywolania statystyk
+  + poprawiono kod w konfiguracji
+  + poprawiono bug przy zapisie javy i flash
+  + poprawiono bug przy logowaniu
+
+5.2
+  + zmiana kodu , który wstawia statystyke na strone
+
+5.1 beta rc1
+  + usuniêto bug przy zapisie konfiguracji
+  + wrócilo pole z ustawieniem czasu blokowania przeladowan strony
+  + poprawka przy zapisie logow, pustych nie zapisuje
+  + drobne poprawki
+
+
+5.01 beta
+  + dodano kilka komunikatów o bledach
+  + poprawiono przy zapisie konfiguracji
+  + poprawiono bug przy wylogowywaniu
+  + poprawiono bug przy blokowaniu odswierzania strony
+
+5.0  beta
+  + zmiana formatu zapisu logów, aby zwiekszyc stabilnosc i niezawodnosc
+    systemu statystyk
+  + zoptymalizowano kod odpowiedzialny za zapis logów do plików
+  + ma³a kosmetyka
+  + zmiana sposobu do³aczania statystyki, dzieki temu, system jest niezalezny od serwera,
+    teraz statystyki mog± byc na innym serwerze niz jest strona
+  - usunieto raporty, poniewaz bylo troche z nimi problemow, moze w przyszlosci  powróc±
+
+4.3
+  + dodano wysy³anie raportów na email
+  + dodano wysy³anie raportów na sms
+  + poprawiono bug przy zapisie szczegó³owych logów
+    powodujacy losowe uszkodzenie pliku
+  + zmieniono sposób wy¶wietlania danych w sekcji "Ostatnie"
+
+4.2.1
+  + usuniêto bug przy zliczaniu podstron
+  + zoptymalizowano kod
+  + zwiêkszono listê przegl±darek
+  + usuniêto bug w popupie, przy podsumowaniu
+  + dodano automatyczne rozpoznawanie scie¿ek
+
+4.2
+  + dodano mo¿liwo¶æ wyboru logo
+  + poprawiono bug przy logowaniu do panelu administracyjnego
+  + poprawione wykluczanie hostow
+  + zmieniono wstawianie scie¿ek do logow
+  + usuniêto skrypt instalacyjny, poniewa¿ nie spe³nia³ swojego zadania
+  + poprawiono bug przy rozpoznawaniu Windows ME
+  + zmieniono dostep do skrytu zapisujacego rodzielczo¶ci i liczbe kolorów
+  + drobne poprawki kosmetyczne
+
+4.1
+  + usuniêto kilka bugów z t³umaczenia angielskiego
+  + usuniêto bug dzielenia przy statystykach rocznych
+  + usuniêto bug przy ostatnich odwiedzinach
+  + poprawiono system autoryzacji
+
+4.01
+  + usuniêto bug dotycz±cy wy¶wietlania danych z aktualnego miesi±ca
+  + poprawiono kilka bugów skryptu instalacyjnego
+  + przy¶pieszono dzia³anie funkcji odczytuj±cej dane z pliku stat.isl
+
+4.0
+  + zmieniono ca³kowicie wygl±d prezentacji statystyki
+  + dodano skrypt instalacyjny
+  + zmiana nazw plików, przechowuj±cych dane zebrane przez statystykê na *.isl
+  + ulepszenie funkcji odpowiedzialnej za identyfikacjê systemów i przegl±darek,
+    wyszukiwarek i s³ów kluczowych
+  + zmieniono cookies na sesje, automatycznego logowania poprzez cookies zosta³o usuniêtê
+  + zmieniono pliki graficzne do prezentacji
+  + dodano mo¿liwo¶æ podgl±du dowolnego miesi±ca z ostatnich 6 lat
+  + zmiana logo statystyki
+  + usuniêto mo¿liwo¶æ zmian kolorów w prezentacji danych
+
+3.9
+  + zmieniono dzia³anie modu³ów odpowiedzialnych za identyfikacje systemów i przegl±darek
+  + uzupe³niono listê przegl±darek
+
+3.8
+  + uzupe³niono listê przegl±darek
+  + uzupe³niono listê OS'ów
+  + uzupe³niono listê wyszukiwarek
+
+3.7
+  + zlikwidowano kilka mniej istotnych bugów
+  + uzupe³niono listê przegl±darek
+  + uzupe³niono listê OS'ów
+  + uzupe³niono listê wyszukiwarek
+  + wprowadzono modu³ow± budowê czê¶ci odpowiedzialnej za zliczanie OSów,
+    przegl±darek i wyszukiwarek
+
+3.6
+  + zlikwidowano kilka mniej istotnych bugów
+  + uzupe³niono listê przegl±darek
+  + uzupe³niono listê OS'ów
+
+3.5
+  + uzupe³niono listê przegl±darek
+  + uzupe³niono listê OS'ów
+
+3.4
+  + zlikwidowano kilka mniej istotnych bugów
+  + uzupe³niono listê przegl±darek
+  + uzupe³niono listê OS'ów
+  + poprawiono statystykê wyszukiwarek i wyszukiwanych s³ów kluczowych
+
+3.3
+  + zlikwidowano kilka istotnych bugów
+
+3.2
+  + dodano prezentacjê "najczê¶ciej z domen"
+  + dodano licznik odwiedzin
+
+3.1
+  + usuniêto ma³y bug przy rozpoznawaniu s³ów kluczowych
+
+3.0
+  + zmiana design'u prezentacji statystyk
+  + dodano zapis has³a do cookies
+  + dodano prezentacje ostatnich godzin i dni
+  + poprawiono kilka bugów
+  + dodano kilka nowych wyszukiwarek do listy
+  + zmieniono pliki graficzne do prezentacji
+  + zmieniono format zapisu logów szczegó³owych odwiedzin
+
+2.5
+  + dodano prezentacjê najczêsciej z wyszukiwarek
+  + usuniêto b³±d przy dodawaniu s³ów kluczowych
+
+2.4
+  + poprawiono b³±d przy tworzeniu plików
+  + usuniêto kilka drobnych bugów
+  + zwiêkszono liczbê rozpoznawanych wyszukiwarek
+
+2.3
+  + dodano menu do prezentacji
+  + poprawiono kilka b³êdów
+
+2.2
+  + dodano kilka przegladarek i systemów operacyjnych
+
+2.1
+  + poprawiono 2 powa¿ne bugi
+  + dodano zliczanie pojedynczych podstron
+  + zmieniono logo
+
+2.0
+  + ulepszono procedure blokowania odswie¿ania strony
+  + poprawiono klika drobnych bugów
+  + drobna zmiana w wyglad prezentacji statystyk
+
+1.91
+  + poprawiono bug przy zapisie $HTTP_REFERER
+
+1.9
+  + poprawiono b³ad przy zapisywaniu s³ów kluczowych z wyszukiwarek
+  + zmieniono sposób zapisu krajów
+
+1.8
+  + poprawiono b³±d przy tworzeniu plików
+  + zoptymalizowano kod programu
+
+1.7
+  + dodano globalne wy¶wielanie najczêsciej w godzinach (procentowo)
+  + dodano globalne wy¶wielanie najczêsciej w dniach tygodnia (procentowo)
+  + dodano wy¶wietlanie z jakiego kraju odwiedzaj±cy pochodzi
+  + poprawiono drobne b³êdy przy wy¶wietlaniu wynikôw
+
+1.6
+  + dodano wyswietlanie poprzedniego miesi±ca
+  + dodano rozpoznawanie wersji systemu operacyjnego i przegl±darek
+  + wprowadzono blokowanie prze³adowañ strony
+  + dodano wy¶wietlanie s³ów kluczowych wprowadzanych do wyszukiwarek
+  + dodano zliczanie u¿ywanych kolorów przez odwiedzaj±cych
+  + dodano pliki "os.log" , "browser.log" , "lastip.dat" oraz "keyword.dat"
+  + poprawiono drobne b³êdy
+
+1.5
+  + zmieniono sposób wywo³ania statystyki, teraz dzia³a tak¿e bez javascript
+  + usunieto zbêdny ju¿ plik stat.inc
+  + dodano typ przegl±darek do listy ostatnich odwiedzin
+  + dodano mo¿liwo¶c zmian kolorów
+  + poprawiono kilka drobnych b³edów
+
+1.4
+  + wprowadzono sortowanie wyników
+
+1.3
+  + zoptymalizowano zród³a, dziêki temu program generuje krótszy kod
+  + poprawiono b³±d przy zapisie ostatnich odwiedzin
+  + poprawiono b³±d przy dodawaniu hostów
+
+1.2
+  + zoptymalizowano kod wy¶wietlaj±cy wyniki
+
+1.1
+  + poprawino bug na stronie logowania
+  + dodano opcjê wykluczania hosta
+  + dodany plik konfiguracyjny
+  + poprawiono ma³y bug przy zapisie danych
+
+1.0
+  + pierwsza udostêpniona wersja
+

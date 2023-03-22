@@ -1,0 +1,127 @@
+<?
+
+$rmsg['month']=array('Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December');
+$rmsg['week']=array('Zondag','Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag');
+$rmsg['short_week']=array('Zon','Maa','Din','Woe','Don','Vri','Zat');
+$rmsg['res']=array('640x480','800x600','1024x768','1152x864','1280x1024','Any');
+$rmsg['color']=array('4 bit','8 bit','16 bit','24 bit','32 bit','Any');
+$rmsg['menu']=array('Info','Technologie','Zoekmachines','Net','Pagina`s','Recent','Uitloggen','Admin');
+$rmsg['menuc']=array('Algemene informatie','Technische informatie','Zoeken, sleutelwoorden en referentie adressen','Hosts, domeinen, landen','Subpagina`s','Laatste bezoekers');
+$rmsg['cal']='Kalender';
+$rmsg['author']='Auteur: ';
+$rmsg['coop']='Cooperatie: ';
+
+$rmsg['ogolne']['title']='Info';
+$rmsg['ogolne'][0]='Website aanvragen';
+$rmsg['ogolne'][1]='Website bezoekers';
+$rmsg['ogolne'][2]='Bezoekers in dit jaar';
+$rmsg['ogolne'][3]='Bezoekers in deze maand';
+$rmsg['ogolne'][4]='Bezoekers vandaag';
+$rmsg['ogolne'][5]='Bezoekers afgelopen uur';
+$rmsg['ogolne'][6]='Verschillende hosts';
+$rmsg['ogolne'][7]='Verschillende aanvragen';
+
+$rmsg['title']['year']='Bezoekers in het jaar: ';
+$rmsg['title']['month']='Bezoekers in deze maand: ';
+$rmsg['title']['day']='Bezoekers vandaag';
+$rmsg['title']['rday']='Bezoekers gisteren';
+$rmsg['title']['days_week']='Top dagen';
+$rmsg['title']['hours']='Top uren';
+$rmsg['title']['browser']='Top browsers';
+$rmsg['title']['os']='Top besturingssystemen';
+$rmsg['title']['res']='Top resoluties';
+$rmsg['title']['colors']='Top kleuren';
+$rmsg['title']['referer']='Top referenties';
+$rmsg['title']['search']='Top zoeken';
+$rmsg['title']['keyword']='Top sleutelwoorden';
+$rmsg['title']['host']='Top hosts';
+$rmsg['title']['domain']='Top domeinen';
+$rmsg['title']['country']='Top landen';
+$rmsg['title']['pages']='Top pagina`s';
+$rmsg['title']['last']=' laatste bezoekers';
+
+$rmsg['last']['return']='return';
+$rmsg['last']['date']='datum';
+$rmsg['last']['info']='info';
+$rmsg['last']['tech']='tech';
+$rmsg['last']['last']='laatste bezoek';
+$rmsg['last']['new']='nieuw';
+
+$rmsg['admin']['title']='Admin area';
+$rmsg['admin']['pass']='Statistieken wachtwoord';
+$rmsg['admin']['pass_conf']='Admin area en statistieken wachtwoord';
+$rmsg['admin']['expired']        = 'Herlaad blocker: (minutes)';
+$rmsg['admin']['pages']          = 'Tel alle bezoekers paginas<br>1 = JA<br>2 = Nee';
+$rmsg['admin']['lang']           = 'Taal versie';
+$rmsg['admin']['ip_out']         = 'Lijst van IPs die geen statestieken weeergeven ( gescheiden door ";" b.v.: 12.*.00.*; 12.123.12.00; ... ) Voeg "*" voor alle.<br><i>Mijn eigen IP is: '.$_SERVER['REMOTE_ADDR'].'</i>';
+$rmsg['admin']['count_host']     = 'Aantal hosts laten zien';
+$rmsg['admin']['count_domain']   = 'Aantal domeinen laten zien';
+$rmsg['admin']['count_referer']  = 'Aantal referers laten zien';
+$rmsg['admin']['count_pages']    = 'Aantal paginas laten zien';
+$rmsg['admin']['count_keyword']  = 'Aantal keyword laten zien';
+$rmsg['admin']['count_country']  = 'Aantal landen laten zien';
+$rmsg['admin']['count_search']   = 'Aantal zoekmachines laten zien';
+$rmsg['admin']['count_os']       = 'Aantal OS laten zien';
+$rmsg['admin']['count_browser']  = 'Aantal browsers laten zien';
+$rmsg['admin']['count_last']     = 'Aantal laatste bezoekers laten zien';
+$rmsg['admin']['code']='Zet deze code in de pagina`s';
+$rmsg['admin']['email']='Send report on e-mail:';
+$rmsg['admin']['raport']='Arrangement of reports';
+$rmsg['admin']['w_r_godz']='send at (0-23): ';
+$rmsg['admin']['w_r_dzien']='send every day';
+$rmsg['admin']['w_r_tydzien']='send on: ';
+$rmsg['admin']['w_r_miesiac']='send on last day of month';
+$rmsg['admin']['w_r_rok']='send on last day of month';
+$rmsg['admin']['r_dzien']='Day report';
+$rmsg['admin']['r_tydzien']='Week report';
+$rmsg['admin']['r_miesiac']='Monthly report';
+$rmsg['admin']['r_rok']='Yearly report';
+$rmsg['admin']['change_pass']='Change passwords';
+$rmsg['admin']['pass_new']='New password';
+$rmsg['admin']['pass_new_ver']='Retype new password';
+$rmsg['admin']['pass_old']='Old password';
+$rmsg['admin']['debug']='Debug ?';
+$rmsg['admin']['base_url']='Istat\'s URL';
+
+$rmsg['raport']['this_week']     = ' (deze week):';
+$rmsg['raport']['in_this_week']  = 'Bezoekers voor deze week';
+$rmsg['raport']['proc']          = ' (in algmeen, procenten):';
+$rmsg['raport']['today']         = ' (vandaag):';
+$rmsg['raport']['max_day']       = 'Max aantal, dagen: ';
+$rmsg['raport']['min_day']       = 'Min aantal, dagen: ';
+$rmsg['raport']['srednia_day']   = 'Dag gemiddelde: ';
+$rmsg['raport']['max_week']      = 'Max aantal, weken: ';
+$rmsg['raport']['min_week']      = 'Min aantal, weken: ';
+$rmsg['raport']['srednia_week']  = 'Week gemiddelde: ';
+$rmsg['raport']['max_month']     = 'Max aantal, maanden: ';
+$rmsg['raport']['min_month']     = 'Min aantal, maanden: ';
+$rmsg['raport']['srednia_month'] = 'Maand gemiddelde: ';
+$rmsg['raport']['max_year']      = 'Max aantal, jaar: ';
+$rmsg['raport']['min_year']      = 'Min aantal, jaar: ';
+$rmsg['raport']['srednia_year']  = 'Jaar gemiddelde: ';
+$rmsg['raport']['wizyt']         = 'Bezoeken: ';
+$rmsg['raport']['pop_wizyt']     = 'Laatste bezoek: ';
+$rmsg['raport']['no_data']       = 'Geen Data';
+$rmsg['raport']['main']          = 'Main';
+
+$rmsg['tail'][0]                 = 'Alle bezoekers';
+$rmsg['tail'][1]                 = 'Gemiddelde';
+$rmsg['tail'][2]                 = 'dag';
+$rmsg['tail'][3]                 = 'grafiek';
+$rmsg['tail'][4]                 = 'bezoekers';
+
+$rmsg['login']['enter']          = 'Wachtwoord: ';
+$rmsg['login']['login']          = 'Inloggen';
+
+$rmsg['error']['num1']           = 'Verkeerde waarde: ';
+$rmsg['error']['num2']           = '. Bevat max 4 tekens.';
+$rmsg['error']['hour1']          = 'Wrong hour: ';
+$rmsg['error']['hour2']          = '. Enter range values 0-23.';
+$rmsg['error']['email']          = 'Incorrect email adress: ';
+$rmsg['error']['pass_num']       = 'Voer alphanumeriek wachtwoord in. Min. 5 karakters.';
+$rmsg['error']['pass_same']      = 'Oud wachtwoord verkeerd.';
+$rmsg['error']['pass_chk']       = 'Verkeerd wachtwoord.';
+$rmsg['error']['pass_conf_same'] = 'Passwords mismatch.';
+$rmsg['error']['pass_conf_chk']  = 'Incorrect password.';
+$rmsg['error']['prepend']        = 'Changes not saved, because of following errors: ';
+?>

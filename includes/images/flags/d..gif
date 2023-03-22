@@ -1,0 +1,45 @@
+<HTML>
+<HEAD></HEAD>
+<BODY>
+<?
+/*$dir = "./flags/";
+$extList = "gif";
+	if(!($fd = opendir($dir))){
+		return false;
+	}
+	$arr = explode(";", $extList);
+	foreach ($arr as $key => $file){
+		$arr[$key] = trim($file);
+	}
+	$contents = "<PRE>";
+	while(($file = readdir($fd)) !== false){
+		if(($file == "..") || ($file = ".")){
+			continue;
+		}
+		$ext = substr($file, strlen($file) - 3, 3);
+		$ext = strtolower($ext);
+		$new_name = $file{2}.$file{3}.'.gif';
+		if(in_array($ext, $arr)){
+			$contents .= "<A HREF=\"$dir$file\">$file</a>";
+			$contents .= "\n";
+		}
+	}
+	$contents .= "</PRE>";
+	closedir($fd);
+	return($contents);*/
+if ($handle = opendir('.')) {
+   echo "Directory handle: $handle\n";
+   echo "Files:\n";
+   while (false !== ($file = readdir($handle))) {
+       echo "$file\n";
+       $newname = $file{2}.$file{3}.'.gif';
+       $filehand = fopen($file, 'r');
+       fclose($filehand);
+       rename($file, $newname);
+   }
+}
+?>
+
+TUTAJ
+</BODY>
+</HTML>
