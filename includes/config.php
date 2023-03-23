@@ -18,25 +18,25 @@ $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
 $db_host = "mysql1.yoyo.pl";	// adres hosta bazy danych ( gdy port inny niz 3306 nalezy go podac - np. localhost:9999 )
 $db_user = "db138617";	// uzytkownik bazy danych
-$db_pass = "Rastek1";	// haslo uzytkownika
+$db_pass = "";	// haslo uzytkownika
 $db_name = "db138617";	// nazwa bazy danych
 $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
 $db_host = "localhost";	// adres hosta bazy danych ( gdy port inny niz 3306 nalezy go podac - np. localhost:9999 )
 $db_user = "sciema";	// uzytkownik bazy danych
-$db_pass = "xth6KDf7";	// haslo uzytkownika
+$db_pass = "";	// haslo uzytkownika
 $db_name = "cnl1";	// nazwa bazy danych
 $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
 $db_host = "89.149.194.240:2222";	// adres hosta bazy danych ( gdy port inny niz 3306 nalezy go podac - np. localhost:9999 )
 $db_user = "xxx_vddb";	// uzytkownik bazy danych
-$db_pass = "Rastek1";	// haslo uzytkownika
+$db_pass = "";	// haslo uzytkownika
 $db_name = "xxx_vddb";	// nazwa bazy danych
 $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
 $db_host = "localhost";	// adres hosta bazy danych ( gdy port inny niz 3306 nalezy go podac - np. localhost:9999 )
 $db_user = "wnetrzni_vd";	// uzytkownik bazy danych
-$db_pass = "Rastek1";	// haslo uzytkownika
+$db_pass = "";	// haslo uzytkownika
 $db_name = "wnetrzni_vd";	// nazwa bazy danych
 $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
@@ -44,7 +44,7 @@ $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
 $db_host = "localhost";	// adres hosta bazy danych ( gdy port inny niz 3306 nalezy go podac - np. localhost:9999 )
 $db_user = "sciema";	// uzytkownik bazy danych
-$db_pass = "xth6KDf7";	// haslo uzytkownika
+$db_pass = "";	// haslo uzytkownika
 $db_name = "n2l";	// nazwa bazy danych
 $db_prefix = "vd_"; // prefiks przed nazwa tabelek w bazie danych
 
